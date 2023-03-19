@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blowfish</title>
+        <link rel="stylesheet" href="./index.css">
+        <script defer type="text/javascript" src="./js/assets.js"></script>
+        <script defer type="text/javascript" src="./js/baseUTF64.js"></script>
+        <script defer type="text/javascript" src="./js/blowfish.js"></script>
+        <script defer type="text/javascript" src="./index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Зашифровать</h2>
+            <textarea id="inputEncoding" class="textarea" placeholder="Текст для шифрования"></textarea>
+            <textarea id="outputEncoding" class="textarea" readonly="readonly" placeholder="Результат"></textarea>
+            <button id="buttonEncoding">Зашифровать</button>
+        </div>
+        <div class="container">
+            <h2>Дешифровать</h2>
+            <textarea id="inputDecoding" class="textarea" placeholder="Текст для деширования"></textarea>
+            <textarea id="outputDecoding" class="textarea" readonly="readonly" placeholder="Результат"></textarea>
+            <button id="buttonDecoding">Дешифровать</button>
+        </div>
+    </body>
+</html>

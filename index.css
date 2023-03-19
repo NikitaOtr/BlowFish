@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea {
+    height: 150px;
+    width: 400px;
+    resize: none;
+}
